@@ -35,7 +35,7 @@ function Projects() {
               title="Sneakers E-Commerce Website"
               description="Nike E-Commerce Clothing website,Quick minimalistic nike-shoes design concept it is an Globally  Shoes and Clothing company"
               tech="Tech-Stacks"
-              techD="Html | Javascript | Css  "
+              techD="Html | Javascript | CSS  "
               link="https://e-commerce-nike12.netlify.app/"
               a="https://github.com/abbygoyal/E-Commerce.git"
             />

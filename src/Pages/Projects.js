@@ -78,7 +78,7 @@ function Projects() {
             <ProjectCards
               imgPath="/images/Expense-tracker.png"
               title="Expense Tracker"
-              description="Add and Sort the Expenses According to Year wise and also there filter to Sort the Expense"
+              description="Expense Tracker to track all the Monthly Expenses and we can add and sort the expenses according to the years and monthly Height Bar chart is there to show the expenses"
               tech="Tech-Stacks"
               techD=" HTML | CSS | Javascript | React"
               link="https://tracker-expenses-react.netlify.app/"

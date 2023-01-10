@@ -35,11 +35,7 @@ function Projects() {
               title="Sneakers E-Commerce Website"
               description="Nike E-Commerce Clothing website,Quick minimalistic nike-shoes design concept it is an Globally  Shoes and Clothing company"
               tech="Tech-Stacks"
-<<<<<<< HEAD
-              techD="Html | Javascript | CSS  "
-=======
               techD="HTML | CSS | Javascript   "
->>>>>>> bbf71bb8188c775320b9f9e8550045a4888bb17f
               link="https://e-commerce-nike12.netlify.app/"
               a="https://github.com/abbygoyal/E-Commerce.git"
             />
@@ -87,6 +83,17 @@ function Projects() {
               techD=" HTML | CSS | Javascript | React"
               link="https://tracker-expenses-react.netlify.app/"
               a="https://github.com/abbygoyal/react-expenses.git"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/Username_Age.png"
+              title="Username and Age with boundation"
+              description="Add Username and Age also there validation for both the inputs Username shouldn't be empty and Age must be positive and greater than zero"
+              tech="Tech-Stacks"
+              techD=" HTML | CSS | Javascript | React"
+              link="https://username-age-with-boundation.netlify.app/"
+              a="https://github.com/abbygoyal/Username-and-Age-with-boundation.git"
             />
           </Col>
         </Row>

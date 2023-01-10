@@ -74,9 +74,21 @@ function Projects() {
               a="https://github.com/abbygoyal/RealEstate-UI.git"
             />
           </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/Expense-tracker.png"
+              title="Expense Tracker"
+              description="Expense Tracker to track all the Monthly Expenses and we can add and sort the expenses according to the years and monthly Height Bar chart is there to show the expenses"
+              tech="Tech-Stacks"
+              techD=" HTML | CSS | Javascript | React"
+              link="https://tracker-expenses-react.netlify.app/"
+              a="https://github.com/abbygoyal/react-expenses.git"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
   );
 }
 export default Projects;
+

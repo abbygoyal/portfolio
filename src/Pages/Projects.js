@@ -35,7 +35,7 @@ function Projects() {
               title="Sneakers E-Commerce Website"
               description="Nike E-Commerce Clothing website,Quick minimalistic nike-shoes design concept it is an Globally  Shoes and Clothing company"
               tech="Tech-Stacks"
-              techD="Html | Javascript | CSS  "
+              techD="HTML | CSS | Javascript "
               link="https://e-commerce-nike12.netlify.app/"
               a="https://github.com/abbygoyal/E-Commerce.git"
             />
@@ -78,11 +78,22 @@ function Projects() {
             <ProjectCards
               imgPath="/images/Expense-tracker.png"
               title="Expense Tracker"
-              description="Expense Tracker to track all the Monthly Expenses and we can add and sort the expenses according to the years and monthly Height Bar chart is there to show the expenses"
+              description="Expense Tracker to track all the Monthly Expenses and we can add and sort the expenses according to the years also monthly Height bar is there to show the expenses"
               tech="Tech-Stacks"
               techD=" HTML | CSS | Javascript | React"
               link="https://tracker-expenses-react.netlify.app/"
               a="https://github.com/abbygoyal/react-expenses.git"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/Username_Age.png"
+              title="Username & Age"
+              description="Add the Username and Age with boundation, that is Username shouldn't be empty aand Age must be positive number"
+              tech="Tech-Stacks"
+              techD=" HTML | CSS | Javascript | React"
+              link="https://username-age-with-boundation.netlify.app/"
+              a="https://github.com/abbygoyal/Username-and-Age-with-boundation.git"
             />
           </Col>
         </Row>
@@ -91,4 +102,3 @@ function Projects() {
   );
 }
 export default Projects;
-

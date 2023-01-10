@@ -35,7 +35,7 @@ function Projects() {
               title="Sneakers E-Commerce Website"
               description="Nike E-Commerce Clothing website,Quick minimalistic nike-shoes design concept it is an Globally  Shoes and Clothing company"
               tech="Tech-Stacks"
-              techD="HTML | CSS | Javascript   "
+              techD="Html | Javascript | CSS  "
               link="https://e-commerce-nike12.netlify.app/"
               a="https://github.com/abbygoyal/E-Commerce.git"
             />
@@ -72,28 +72,6 @@ function Projects() {
               techD=" HTML | CSS | Javascript | React"
               link="https://properties-marketplace.netlify.app/"
               a="https://github.com/abbygoyal/RealEstate-UI.git"
-            />
-          </Col>
-          <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath="/images/Expense-tracker.png"
-              title="Expense Tracker"
-              description="Add and Sort the Expenses According to Year wise and also there filter to Sort the Expense"
-              tech="Tech-Stacks"
-              techD=" HTML | CSS | Javascript | React"
-              link="https://tracker-expenses-react.netlify.app/"
-              a="https://github.com/abbygoyal/react-expenses.git"
-            />
-          </Col>
-          <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath="/images/Username_Age.png"
-              title="Username and Age with boundation"
-              description="Add Username and Age also there validation for both the inputs Username shouldn't be empty and Age must be positive and greater than zero"
-              tech="Tech-Stacks"
-              techD=" HTML | CSS | Javascript | React"
-              link="https://username-age-with-boundation.netlify.app/"
-              a="https://github.com/abbygoyal/Username-and-Age-with-boundation.git"
             />
           </Col>
         </Row>

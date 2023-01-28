@@ -12,7 +12,8 @@ function Projects() {
     >
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          <strong className="purple">My</strong> Recent{" "}
+          <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "black" }}>
           Here are a few projects I've worked on recently.
@@ -41,6 +42,17 @@ function Projects() {
             />
           </Col>
 
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/Greate_Quote.png"
+              title="React Quotes Saver"
+              description="This application having functionality of authentication,authorization,viewing and adding quotes,routing with a backend FireBase"
+              tech="Tech-Stacks"
+              techD=" HTML | CSS | Javascript | React | FireBase"
+              link="https://react-quotes-saver.netlify.app/quotes"
+              a="https://github.com/abbygoyal/react-quote.git"
+            />
+          </Col>
           <Col md={6} className="project-card">
             <ProjectCards
               imgPath="/images/Monsters_Rolodex.png"

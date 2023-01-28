@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { FaWordpress } from "react-icons/fa";
 
 function SelfIntro() {
   return (
@@ -33,14 +34,14 @@ function SelfIntro() {
               an opportunity to improve skills and knowledge gained as well as
               to grow along with the organization’s goal.
               <br />
-              <br />I developed passion for coding a few years back when I
-              printed my first{" "}
+              <br />I developed passion for coding a few years back during
+              lockdown when I make my own website on{" "}
               <span style={{ color: "#FFF5EE", fontStyle: "italic" }}>
                 {" "}
-                "Hello world"
+                "WordPress <FaWordpress />"
               </span>{" "}
-              😃, that hello world just hits different 😌 . Since then
-              aesthetically functional websites has just been my thing.
+              , and my article got ranked on Google. Since then aesthetically
+              functional websites has just been my thing.
             </p>
           </Col>
         </Row>

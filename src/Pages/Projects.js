@@ -30,7 +30,17 @@ function Projects() {
               a="https://github.com/abbygoyal/crwn-clothing.git"
             />
           </Col>
-
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/ReactMeal_Food_App.png"
+              title="ReactMeal Food App"
+              description="This application is Food ordering system completely built using ReactJS and Redux, having functionality as authentication,authorization,adding and removing items from Cart and Ordered them and its connected with a backend FireBase"
+              tech="Tech-Stacks"
+              techD=" HTML | CSS | Javascript | React | FireBase"
+              link="https://react-meal-food-app.netlify.app/"
+              a="https://github.com/abbygoyal/Food-Order-App.git"
+            />
+          </Col>
           <Col md={6} className="project-card">
             <ProjectCards
               imgPath="/images/Greate_Quote.png"

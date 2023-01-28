@@ -30,17 +30,6 @@ function Projects() {
               a="https://github.com/abbygoyal/crwn-clothing.git"
             />
           </Col>
-          <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath="/images/Nike E-Commerce.png"
-              title="Sneakers E-Commerce Website"
-              description="Nike E-Commerce Clothing website,Quick minimalistic nike-shoes design concept it is an Globally  Shoes and Clothing company"
-              tech="Tech-Stacks"
-              techD="HTML | CSS | Javascript "
-              link="https://e-commerce-nike12.netlify.app/"
-              a="https://github.com/abbygoyal/E-Commerce.git"
-            />
-          </Col>
 
           <Col md={6} className="project-card">
             <ProjectCards
@@ -51,6 +40,17 @@ function Projects() {
               techD=" HTML | CSS | Javascript | React | FireBase"
               link="https://react-quotes-saver.netlify.app/quotes"
               a="https://github.com/abbygoyal/react-quote.git"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/Nike E-Commerce.png"
+              title="Sneakers E-Commerce Website"
+              description="Nike E-Commerce Clothing website,Quick minimalistic nike-shoes design concept it is an Globally  Shoes and Clothing company"
+              tech="Tech-Stacks"
+              techD="HTML | CSS | Javascript "
+              link="https://e-commerce-nike12.netlify.app/"
+              a="https://github.com/abbygoyal/E-Commerce.git"
             />
           </Col>
           <Col md={6} className="project-card">

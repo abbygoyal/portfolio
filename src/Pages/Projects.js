@@ -21,6 +21,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">
             <ProjectCards
+              imgPath="/images/user_management.png"
+              title="USER MANAGEMENT Web Application"
+              description="This project is an customer management system having functionalities like Search, Pagination, Sort, Filter, Export to csv  built with React, Node.js, Express, MongoDB and Bootstrap"
+              tech="Tech-Stacks"
+              techD=" REACT | MongoDB | EXPRESS | JAVASCRIPT | NODE "
+              link="https://user-management-mern.netlify.app/"
+              a="https://github.com/abbygoyal/MERN_USER_MANAGER_FRONTEND.git"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
               imgPath="/images/Crwn-clothing.png"
               title="Crwn-Clothing E-Commerce website"
               description="Crwn Clothing is a E-Commerce Clothing website , its suitable for a Fashion shop or any kind of online store, With a grid layout for the Homepage,SignIn with Google, Checkout section and its fully responsive, built with ReactJs & SCSS"

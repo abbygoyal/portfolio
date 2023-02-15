@@ -23,7 +23,7 @@ function Projects() {
             <ProjectCards
               imgPath="/images/user_management.png"
               title="USER MANAGEMENT Web Application"
-              description="This project is an customer management system having functionalities like Search, Pagination, Sort, Filter, Export to csv  built with React, Node.js, Express, MongoDB and Bootstrap"
+              description="This project is an customer management system having functionalities like Search, Pagination, Sort, Filter, Export to CSV  built with React, Node.js, Express, MongoDB and Bootstrap"
               tech="Tech-Stacks"
               techD=" REACT | MongoDB | EXPRESS | JAVASCRIPT | NODE "
               link="https://user-management-mern.netlify.app/"

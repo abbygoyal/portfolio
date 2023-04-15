@@ -4,24 +4,25 @@
   left: 27%;
 }
 .address {
-  color: #0A81AB;
+  color: #0a81ab;
   padding-top: 7em;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.contact-image-container{
-    padding-top: 1em;
+.contact-image-container {
+  padding-top: 1em;
 }
 
 .contact-address {
   color: black;
   padding-top: 1em;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Delicious Handrawn, cursive;
+  font-size: 3em;
+  font-weight: 700;
 }
 
-.ctn{
-  color:#0A81AB ;
+.ctn {
+  color: #0a81ab;
 }

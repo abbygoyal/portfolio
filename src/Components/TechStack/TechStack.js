@@ -19,7 +19,13 @@ function Techstack() {
       <br />
       <br />
       <br />
-      <h1 style={{ fontSize: "2.6em", textAlign: "center" }}>
+      <h1
+        style={{
+          fontSize: "3.5em",
+          textAlign: "center",
+          fontFamily: "Delicious Handrawn, cursive",
+        }}
+      >
         <span className="pur">Skills</span>
       </h1>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>

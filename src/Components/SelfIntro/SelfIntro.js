@@ -13,7 +13,13 @@ function SelfIntro() {
       <Container>
         <Row>
           <Col md={16} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1
+              style={{
+                fontSize: "2.6em",
+                fontFamily: "Delicious Handrawn, cursive",
+                fontWeight: "700",
+              }}
+            >
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">

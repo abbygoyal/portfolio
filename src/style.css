@@ -19,7 +19,7 @@ html {
 }
 .pur {
   color: #0a81ab;
-  font-weight: 600;
+  font-weight: 700;
 }
 /* --------- */
 /*  Preloader */
@@ -224,7 +224,7 @@ html {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.2em !important;
+  font-size: 1.5em !important;
   text-align: left;
 }
 
@@ -310,10 +310,10 @@ html {
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   height: auto !important;
 }
 
@@ -340,8 +340,10 @@ html {
 }
 .project-heading {
   color: black !important;
-  font-size: 2.5em !important;
-  font-weight: 600 !important;
+  font-family: "Delicious Handrawn", cursive;
+  text-align: center;
+  font-size: 2.6em !important;
+  font-weight: 700 !important;
   padding-top: 10px !important;
 }
 

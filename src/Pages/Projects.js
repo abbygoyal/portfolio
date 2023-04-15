@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCards from "../Components/ProjectCards/ProjectCards";
+import { BiFontFamily } from "react-icons/bi";
 
 function Projects() {
   return (
@@ -11,18 +12,30 @@ function Projects() {
       style={{ backgroundColor: "#0A81AB" }}
     >
       <Container>
-        <h1 className="project-heading">
-          <strong className="purple">My</strong> Recent{" "}
-          <strong className="purple">Works </strong>
+        <h1
+          style={{
+            fontSize: "2.6em",
+            fontFamily: "Delicious Handrawn, cursive",
+            fontWeight: "700",
+            textAlign: "center",
+          }}
+        >
+          My <span className="purple"> Recent </span> Projects
         </h1>
-        <p style={{ color: "black" }}>
+        <p
+          style={{
+            color: "black",
+            fontSize: "1.5em",
+            textAlign: "center",
+          }}
+        >
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">
             <ProjectCards
               imgPath="/images/user_management.png"
-              title="USER MANAGEMENT Web Application"
+              title="USER MANAGEMENT MERN Application"
               description="This project is an customer management system having functionalities like Search, Pagination, Sort, Filter, Export to csv  built with React, Node.js, Express, MongoDB and Bootstrap"
               tech="Tech-Stacks"
               techD=" REACT | MongoDB | EXPRESS | JAVASCRIPT | NODE "
@@ -39,6 +52,17 @@ function Projects() {
               techD=" React | SCSS | Google-FireBase "
               link="https://crwn-clothing-abby.netlify.app/"
               a="https://github.com/abbygoyal/crwn-clothing.git"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/Doc-Appointment.png"
+              title="Doctor Appointment System MERN Application"
+              description="“Doctor Appointment Management System” is responsible for keeping all the records of doctor appointments that are taken by users. This system helps the patient take an appointment online and save time.The main objective of the project is to provide easier doctor appointment and gets appointment online which save lots of time."
+              tech="Tech-Stacks"
+              techD=" React/REDUX | MongoDB | EXPRESS | JAVASCRIPT | NODE "
+              link="https://doctorapp-wbhw.onrender.com/"
+              a="https://github.com/abbygoyal/Doctor-appointmnet-system-mern-project.git"
             />
           </Col>
           <Col md={6} className="project-card">

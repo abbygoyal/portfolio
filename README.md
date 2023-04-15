@@ -2,7 +2,7 @@
 self introduction portfolio!
 
 ## Live Project Link
-[Abhishek Portfolio Project](https://abhishek-goyal-portfolio.netlify.app/)
+[Abhishek Goyal Portfolio Projects](https://abhishek-goyal-portfolio.netlify.app/)
 
 # How to fork and clone
 

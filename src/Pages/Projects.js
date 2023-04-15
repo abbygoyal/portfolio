@@ -35,7 +35,7 @@ function Projects() {
           <Col md={6} className="project-card">
             <ProjectCards
               imgPath="/images/user_management.png"
-              title="USER MANAGEMENT MERN Application"
+              title="USER MANAGEMENT Web Application"
               description="This project is an customer management system having functionalities like Search, Pagination, Sort, Filter, Export to csv  built with React, Node.js, Express, MongoDB and Bootstrap"
               tech="Tech-Stacks"
               techD=" REACT | MongoDB | EXPRESS | JAVASCRIPT | NODE "

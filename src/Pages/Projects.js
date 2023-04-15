@@ -60,7 +60,7 @@ function Projects() {
               title="Doctor Appointment System MERN Application"
               description="“Doctor Appointment Management System” is responsible for keeping all the records of doctor appointments that are taken by users. This system helps the patient take an appointment online and save time.The main objective of the project is to provide easier doctor appointment and gets appointment online which save lots of time."
               tech="Tech-Stacks"
-              techD=" React/REDUX | MongoDB | EXPRESS | JAVASCRIPT | NODE "
+              techD=" React/Redux | MongoDB | EXPRESS | JAVASCRIPT | NODE "
               link="https://doctorapp-wbhw.onrender.com/"
               a="https://github.com/abbygoyal/Doctor-appointmnet-system-mern-project.git"
             />

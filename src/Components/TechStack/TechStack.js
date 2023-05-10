@@ -11,7 +11,7 @@ import {
   DiHtml5,
   DiFirebase,
 } from "react-icons/di";
-import { SiRedux, SiExpress, SiTailwindcss } from "react-icons/si";
+import { SiRedux, SiExpress, SiTailwindcss, SiMagento } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -58,6 +58,10 @@ function Techstack() {
           <p>Javascript</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
+          <SiMagento />
+          <p>Magento</p>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
           <DiFirebase />
           <p>Firebase</p>
         </Col>
@@ -65,11 +69,6 @@ function Techstack() {
         <SiTailwindcss />
         <p>Tailwind</p>
       </Col> */}
-
-        <Col xs={4} md={2} className="tech-icons">
-          <DiHtml5 />
-          <p>Html5</p>
-        </Col>
 
         <Col xs={4} md={2} className="tech-icons">
           <DiGithubBadge />

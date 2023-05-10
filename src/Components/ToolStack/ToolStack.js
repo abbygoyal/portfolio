@@ -6,6 +6,7 @@ import {
   // SiHeroku,
   // SiVercel,
   SiNetlify,
+  SiJira,
   // SiAmazonaws,
 } from "react-icons/si";
 
@@ -19,6 +20,10 @@ function ToolStack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
         <p>Postman</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJira />
+        <p>Jira</p>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />

@@ -98,17 +98,7 @@ function Projects() {
               a="https://github.com/abbygoyal/E-Commerce.git"
             />
           </Col>
-          <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath="/images/Monsters_Rolodex.png"
-              title="Monsters Rolodex"
-              description="This application creates “monster” cards with monster picutres, and user names as well as emails by connecting to two APIs.There is also a search bar which can be used to filter and search for the monsters by name."
-              tech="Tech-Stacks"
-              techD=" HTML | CSS | Javascript | React"
-              link="https://monsters-rolod.netlify.app/"
-              a="https://github.com/abbygoyal/Monster-Project.git"
-            />
-          </Col>
+
           <Col md={6} className="project-card">
             <ProjectCards
               imgPath="/images/React_UI.png"
@@ -151,6 +141,17 @@ function Projects() {
               techD=" HTML | CSS | Javascript | React"
               link="https://username-age-with-boundation.netlify.app/"
               a="https://github.com/abbygoyal/Username-and-Age-with-boundation.git"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/Monsters_Rolodex.png"
+              title="Monsters Rolodex"
+              description="This application creates “monster” cards with monster picutres, and user names as well as emails by connecting to two APIs.There is also a search bar which can be used to filter and search for the monsters by name."
+              tech="Tech-Stacks"
+              techD=" HTML | CSS | Javascript | React"
+              link="https://monsters-rolod.netlify.app/"
+              a="https://github.com/abbygoyal/Monster-Project.git"
             />
           </Col>
         </Row>

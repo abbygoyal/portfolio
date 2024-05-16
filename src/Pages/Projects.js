@@ -29,7 +29,7 @@ function Projects() {
             textAlign: "center",
           }}
         >
-          Here are a few projects I've worked on recently
+          Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">

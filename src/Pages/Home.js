@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import myImg from "../Assets/abbyimg.png";
+import myImg from "../Assets/Profile_picture-removebg-preview.png";
 import SelfIntro from "../Components/SelfIntro/SelfIntro";
 import TypeWriter from "../Components/TypeWriter/TypeWriter";
 
